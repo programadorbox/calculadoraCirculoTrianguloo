@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Calculadora de Área de Círculo</title>
+</head>
+
+<body>
+    <div class="area">
+        <section class="area_Circulo">
+            <h2>Calculadora de Área de Círculo</h2>
+            <img src="imgAreaCirculo.png" id="imgCirculo" alt="area del circulo">
+            <input type="number" id="radio" placeholder="Ingrese el radio en cms">
+            <button onclick="calcular()">Calcular</button>
+            <p id="resultado"></p>
+    </div>
+
+    </section>
+    <div class="Hipotenusa"> 
+        <section class="triangulo">
+        <h2>Calculadora de Hipotenusa (3,4,5)</h2>
+        <img src="img345.png" id="imgTriangulo" alt="triangulo">
+        <label for="catetoA">lado A (Cateto):</label>
+        <input type="number" id="catetoA">
+        <label for="catetoB">lado B (Cateto):</label>
+        <input type="number" id="catetoB">
+        <button onclick="calcularHipotenusa()">Calcular</button>
+        <p id="resultadoHipotenusa"></p>
+
+        </section>
+    </div>
+
+    <script src="calculadora345.js"></script>
+    <script src="calcularAreaCirculo.js"></script>
+
+
+    <p>Copyright © 2024 programadorBox. Todos los derechos reservados.</p>
+
+    </footer>
+</body>
+
+</html>

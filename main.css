@@ -1,0 +1,63 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.area, .Hipotenusa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.mi-imagen {
+    width: 5rem;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #43a047;
+}
+
+p {
+    margin-top: 20px;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+}
